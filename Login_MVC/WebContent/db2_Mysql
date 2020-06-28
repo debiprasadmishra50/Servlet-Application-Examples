@@ -1,0 +1,13 @@
+create database college;
+use college;
+drop table Users;
+
+create table Users
+(
+	username varchar(20),
+	password varchar(20),
+	email varchar(50),
+	phone varchar(10),
+	regdno varchar(7),
+	college varchar(20)
+);

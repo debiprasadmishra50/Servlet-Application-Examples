@@ -1,0 +1,16 @@
+conn system/sipusipu18
+
+Create table Employee
+(
+	eid Number(10),
+	ename varchar(20),
+	salary Number(10,2),
+	email Varchar(30),
+	password Varchar(30),
+	phone Number(12)
+);
+
+desc Employee;
+
+Select * from Employee;
+

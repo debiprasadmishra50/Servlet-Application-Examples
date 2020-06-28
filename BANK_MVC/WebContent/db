@@ -1,0 +1,12 @@
+create table bank
+(
+	accno number(12),
+	amount number(8,2)
+);
+
+
+insert into bank values(100,5000);
+insert into bank values(101,10000);
+commit;
+
+Select * from bank;
